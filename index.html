@@ -24,125 +24,6 @@
         </a>
       </div>
       
-      <div class="note">
-        <div>
-          <h3 class="note__title">Test note</h3>
-          <p class="note__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-
-        <div class="note__footer">
-          <div class="note__date">
-            <span class="icon-calendar"></span>
-            <span class="note__day">WED 24 AUG 2022</span>
-          </div>
-          <a class="note__actions" href="">
-            <span class="icon-more-vert" alt="more vert icon">
-          </a>
-        </div>
-      </div>
-
-      <div class="note">
-        <div>
-          <h3 class="note__title">Test note</h3>
-          <p class="note__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-
-        <div class="note__footer">
-          <div class="note__date">
-            <span class="icon-calendar"></span>
-            <span class="note__day">WED 24 AUG 2022</span>
-          </div>
-          <a class="note__actions" href="">
-            <span class="icon-more-vert" alt="more vert icon">
-          </a>
-        </div>
-      </div>
-
-      <div class="note">
-        <div>
-          <h3 class="note__title">Test note</h3>
-          <p class="note__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-
-        <div class="note__footer">
-          <div class="note__date">
-            <span class="icon-calendar"></span>
-            <span class="note__day">WED 24 AUG 2022</span>
-          </div>
-          <a class="note__actions" href="">
-            <span class="icon-more-vert" alt="more vert icon">
-          </a>
-        </div>
-      </div>
-
-      <div class="note">
-        <div>
-          <h3 class="note__title">Test note</h3>
-          <p class="note__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-
-        <div class="note__footer">
-          <div class="note__date">
-            <span class="icon-calendar"></span>
-            <span class="note__day">WED 24 AUG 2022</span>
-          </div>
-          <a class="note__actions" href="">
-            <span class="icon-more-vert" alt="more vert icon">
-          </a>
-        </div>
-      </div>
-
-      <div class="note">
-        <div>
-          <h3 class="note__title">Test note</h3>
-          <p class="note__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-
-        <div class="note__footer">
-          <div class="note__date">
-            <span class="icon-calendar"></span>
-            <span class="note__day">WED 24 AUG 2022</span>
-          </div>
-          <a class="note__actions" href="">
-            <span class="icon-more-vert" alt="more vert icon">
-          </a>
-        </div>
-      </div>
-
-      <div class="note">
-        <div>
-          <h3 class="note__title">Test note</h3>
-          <p class="note__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-
-        <div class="note__footer">
-          <div class="note__date">
-            <span class="icon-calendar"></span>
-            <span class="note__day">WED 24 AUG 2022</span>
-          </div>
-          <a class="note__actions" href="">
-            <span class="icon-more-vert" alt="more vert icon">
-          </a>
-        </div>
-      </div>
-
-      <div class="note">
-        <div>
-          <h3 class="note__title">Test note</h3>
-          <p class="note__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        </div>
-
-        <div class="note__footer">
-          <div class="note__date">
-            <span class="icon-calendar"></span>
-            <span class="note__day">WED 24 AUG 2022</span>
-          </div>
-          <a class="note__actions" href="">
-            <span class="icon-more-vert" alt="more vert icon">
-          </a>
-        </div>
-      </div>
-
       <div class="modal">
         <header class="modal__header">
           <h3 class="modal__title">Test Note</h3>
@@ -150,12 +31,12 @@
             <span class="icon-close"></span>
           </a>
         </header>
-
+  
         <div class="modal__body">
           <div>
             <h3 class="note__title">Test note</h3>
             <p class="note__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-
+  
             <div class="modal__content">
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               * Unordered sub-list. 
@@ -164,7 +45,7 @@
               * Unordered sub-list. 
             </div>
           </div>
-
+  
           <footer class="modal__footer note__footer">
             <div class="note__date">
               <span class="icon-calendar icon-calendar--white"></span>
@@ -176,8 +57,18 @@
             </footer>
           </div>
       </div>
-
     </div>
+
+    <form class="note-form" action="">
+      <div>
+        <input id="note-title" type="text">
+        <input id="note-subtitle" type="text">
+        <textarea id="note-description"></textarea>
+        
+        <button>Cancel</button>
+        <button id="addTask" class="btn-add-task">Add Task</button>
+      </div>
+    </form>
   </div>
 
   <script src="./js/index.js"></script>

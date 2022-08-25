@@ -124,10 +124,11 @@ body {
 /* Modal */
 
 .modal {
+
   position: absolute;
   left: 0;
   top: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
