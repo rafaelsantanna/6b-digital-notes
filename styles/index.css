@@ -1,0 +1,150 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-image: url('../images/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  /* display: flex; */
+  padding: 48px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #101828;
+  margin-bottom: 24px;
+}
+
+.notes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  box-sizing: border-box;
+
+  width: 278px;
+  height: 258px;
+  max-width: 278px;
+
+  background: #FFFFFF;
+  border-radius: 5px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.note.note--add-new {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.note.note--add-new a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px dashed #D0D5DD;
+  border-radius: 6px;
+}
+
+.note__add-new {
+  display: none;
+}
+
+.note__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 4px 0;
+  color: #101828;
+}
+
+.note__content {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #101828;
+  margin: 0;
+
+  height: 40px;
+  overflow: hidden;
+}
+
+.note__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note__date {
+  display: flex;
+  align-items: center;
+}
+
+.note__day {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #667085;
+  margin-left: 6px;
+}
+
+.note__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-add-circle {
+  display: block;
+  background-image: url('../images/add_circle.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+}
+.icon-calendar {
+  display: block;
+  background-image: url('../images/calendar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-more-vert {
+  display: block;
+  background-image: url('../images/more_vert.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 3px;
+}
